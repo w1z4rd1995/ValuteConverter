@@ -3,4 +3,4 @@ export const buttonStyle = {
     width: 70,
     height: 70,
     backgroundColor: "transparent",
-  }
+};

@@ -1,12 +1,12 @@
 .dropDownArrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 63px;
-  height: 44px;
-  border-left: 1px solid #cdcdcd;
-  pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 63px;
+    height: 44px;
+    border-left: 1px solid #cdcdcd;
+    pointer-events: none;
 }
