@@ -1,10 +1,10 @@
-import "./App.css";
 import React, { useContext, useEffect, useState } from "react";
 import { StoreContext } from "./stores/AppStore";
 import { observer } from "mobx-react-lite";
 import { SelectValuteFrom } from "./components/SelectValuteFrom/SelectValuteFrom";
 import { SelectValuteTo } from "./components/SelectValuteTo/SelectValuteTo";
 import { ReverseButton } from "./components/ReverseButton/ReverseButton";
+import "./App.css";
 
 const App = observer(() => {
     const [selectValuteFrom, setSelectValuteFrom] = useState("AUD");
